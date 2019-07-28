@@ -7,15 +7,16 @@ categories: family
 
 {% highlight typescript %}
 
+const BIRTH_DATE = '27/7'; // 27 July;
 const happyBirthday = (jabbar, date) => {
-    return `${date.getDate()}/${date.getMonth() + 1}` === '27/7' 
-        ? `Hello ${jabbar}, many happy returns` 
+    return `${date.getDate()}/${date.getMonth() + 1}` === BIRTH_DATE 
+        ? `Happy birthday ${jabbar}, many happy returns` 
         : 'happy';
 };
 
 happyBirthday('Jabbar', new Date());
 
-// prints 'Hello Jabbar, many happy return'
+// prints 'Happy birthday Jabbar, many happy returns'
 {% endhighlight %}
 
 Happy birthday, Jabbar!!
