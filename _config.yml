@@ -40,3 +40,6 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# Google services
+google_analytics: UA-59749188-8
